@@ -1,0 +1,175 @@
+<!-- About table more  concepts -->
+<!-- with rowspan colspan! -->
+
+<!-- HW Day3 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- its css part below more in future -->
+    <style>
+        table ,tr ,th,td
+        {
+            border: 0.5px solid black ;
+            /* border-collapse: collapse; */
+            text-align: center; 
+            
+            
+        }
+        /* i can allign text in center from below also */
+        /* from td tag only as every tag in world has mostly css style tag supports
+        it acts as attribute/property for that tag */
+        
+        .abc 
+        {
+            /* color: rgba(14, 1, 1, 0.791) */
+            flood-color: blueviolet;
+        }
+        .pqr
+        {
+            color:blue;
+        }
+        </style>
+
+        
+</head>
+
+
+<body>
+    
+    <table>
+
+        <colgroup>
+            <col span=1 style="background-color: rgb(250, 36, 79);">
+            <thead>
+            </thead>
+            
+            <tbody>
+                <!-- <col span="1" style=" background-color: rgb(166, 205, 205);">
+                <col span="1" style=" background-color: rgb(166, 205, 205);" >
+                <col span="1" style="background-color:rgb(166, 205, 205)">
+                <col span="1" style=" background-color: rgb(166, 205, 205);">
+                <col span="1" style=" background-color:rgb(166, 205, 205);"> -->
+            </tbody> 
+            
+             <!-- <tfoot> 
+            </tfoot> -->
+
+            
+        </colgroup>
+        
+        <row
+        
+        
+        <!-- 1st Row -->
+        <thead>
+                <tr>
+                    <th colspan="6" style="background-color: rgb(9, 230, 94);">TimeTable</th>
+                    <!-- <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td> -->
+                </tr>
+        </thead>  
+        
+        
+        <!-- 2ndRow -->
+
+        <tbody>
+            <tr>
+                <th rowspan="6">Hours</th>
+                
+                    
+                    <th class="abc" style="background-color: azure;">
+                        Mon
+                    </th>
+                   
+                    <th class="abc" style="background-color: azure;">
+                        Tues
+                    </th>
+                    <th class="abc" style="background-color: azure;">
+                        Wed
+                    </th>
+                    <th class="abc" style="background-color: azure;">
+                        Thur
+                    </th>
+                    <th class="abc" style="background-color: azure;">
+                        Fri
+                    </th>
+                  
+                                             
+                
+            </tr>
+            
+            <tr>
+                <!-- <td></td> -->
+
+                cl
+                <td class = "pqr">Science</td>
+                <td class = "pqr" >Maths</td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Arts</td>            
+            </tr>
+            
+            
+            <tr>
+                <!-- <td></td> -->
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Arts</td>              
+            </tr>
+        
+            <tr>
+                <!-- <td></td> -->
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Arts</td>              
+            </tr>
+        
+        
+            <tr>
+                <!-- <td></td> -->
+
+
+                <th colspan="5" >LUNCH</th>
+                <!-- <td></td>
+                <td></td>
+                <td></td>
+                <td></td>             --> -->
+            </tr>
+            
+            
+            <tr>
+                <!-- <td></td> -->
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <th rowspan="2">Project</th>            
+            </tr>
+            
+            
+            <tr>
+                <td></td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <td class = "pqr">Science</td>
+                <td class = "pqr">Maths</td>
+                <!-- <td></td>             -->
+            </tbody>
+        </tr>
+
+    </table>
+    
+</body>
+</html>

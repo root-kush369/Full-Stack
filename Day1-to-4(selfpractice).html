@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+   
+   /* Nesting of tables left */
+   
+   
+   #outertable
+   {
+    border: 2px solid red;
+   }
+   /* table ,tr,th,td{ */
+    #innertable ,tr,th,td{
+    border: 2px solid rgb(21, 18, 18);
+    border-collapse: collapse;
+    text-align: center;
+    /* background-color: aqua; */
+   }
+
+
+   .thHeadings
+   {
+    background-color: rgb(39, 182, 195);
+   }
+
+   .second
+   {
+    background-color: rgb(243, 209, 20);
+   }
+</style>
+
+</head>
+
+
+<!-- //header or body can come inside footer -->
+
+
+<section>
+
+    <header>
+        <h1>Creation Of Form and probably Day1 to 4 practice</h1>
+    </header>
+
+</section>
+    
+<body>
+
+<!-- 
+//outer table supposed to be have 1 row and 1 col bcoz table is rectangular & created by1 row and 1 col
+//so i have to put inner content o innner table inside outer table than tr than td -->
+
+
+<section>    
+    <table id="outertable">
+        <tr>
+            <td>
+                
+                <table id="innertable">
+
+                    <tr >
+                        <th class="thHeadings">Device</th>
+                        <th class="thHeadings">Brand</th>
+                        <th class="thHeadings" colspan="2">Specification</th>
+
+                    </tr>
+                    
+                    
+                    <tr>
+                        <td rowspan="3">Smartphone</td>
+                        <td rowspan="3">Apple</td>
+                        <th style="color:black;" class="second">Model</th>
+                        <th style="color:black;" class="second">Storage</th>
+                        
+                    </tr>
+                    
+                    <tr>
+                        <!-- <td>Smartphone</td>
+                        <td>Apple</td> -->
+                        <td>Iphone15proMax</td>
+                        <td>256GB</td>
+                    </tr>
+
+
+                    <tr>
+                        <!-- <td></td> -->
+                        <!-- <td></td> -->
+                        <td>IPHONE SE</td>
+                        <td>128GB</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Laptop</td>
+                        <td>HP</td>
+                        <td colspan="2">15.6" Display</td>
+                        <!-- <td></td> -->
+                    </tr>
+                    <tr>
+                        <td>Tablet</td>
+                        <td>Samsung</td>
+                        <td colspan="2">10.5"Display</td>
+                        <!-- <td></td> -->
+                    </tr>
+                    
+                </table>
+            </td>
+        </tr>
+    
+    
+    </table>
+
+</section>
+
+<!-- section3 below creating 3 ways of links -->
+<section>
+
+
+</section>
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+</html>

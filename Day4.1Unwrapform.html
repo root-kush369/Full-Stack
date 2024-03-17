@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- block element is h1 and h2 thats why new line is fo -->
+        <h1>
+            Welcome to KLoginPage
+        </h1>
+
+        <h2>
+            Contact Us Form
+        </h2>
+
+    </header>
+
+    <!-- <table></table> we can create by table but my browser should know its form
+    so i will create and use semantic tag called form also why browser should  
+        should know its form not table?
+    -->
+    <form action="https://www.google.com">
+        <label for="name">
+            Name
+        </label>
+        <input type="text" id="name" placeholder="Enter your name">
+        
+        <br>
+        
+        <label for ="email">
+            Email
+        </label>
+
+        <!-- ID VS NAMEpoint @2211 -->
+
+
+        <!-- <id kisi element means collection of tag(opening closing and content mixture> -->
+            <!-- so usko pechan nae ya uniqely identify krnae kae leeyae use hota h.. -->
+            
+            <!-- + -->
+
+        <!-- name tag used here     for server so i can use or connect backend js with it also i can
+        use class instead of name- - so server pechan sakae ke ye kya hae?>
+        <means ye identification ka tarika hai for server side ke ye name hai email hai
+        <id can be any string or random name but writing meaning full name mae sense
+        <!-- WILL SEE IN FUTURE -->
+    
+        <input type="email" name="email" id="email" placeholder="Enter Your email">
+
+        <br>
+
+
+        <!-- /*-- INTERVIEW QUESTION WHY IN LABEL ONLY ID COMES?
+
+        FOR 1TO1 MAPPING LABEL CAN DO WITH TAGS 
+            and id is unique for each tags & label cant have multiple tags
+    
+    
+        */ -->
+
+
+
+        <label for="con">
+            Contact
+        </label>
+        <input type="number" name="Contact" id="con" placeholder="Enter ur contact">
+
+
+        <br>
+
+        <label for="gen">
+            EnterYourGender
+
+        </label>
+        <select name="gender" id="gen" >
+
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Others</option>
+
+        </select>
+        <br>
+
+        <label for="dobb">
+            DateOfBirth
+        </label>
+
+
+
+
+
+
+
+
+
+        <!-- <use of name here server side seen in @2211
+            +
+         also by use of name i clubbed all option together
+        so in rating 1 is selected out of 5 atonce-->
+
+
+        <!-- <use of value in nb notes -->
+
+        <input type="date" name="id" id="dobb">
+
+        <br>
+        
+        <span>Rating</span> 
+        <!-- //span same as div create block till content but its not block
+             its inline element -->
+        
+        <label for "rd">
+            1
+        </label>
+        <input type="radio" name="radio" id="rd" value="1">
+
+        <label for "rd">
+            2
+        </label>
+        <input type="radio" name="radio" id="rd" value="2">
+        
+        
+        <label for "rd">
+            3
+        </label>
+        <input type="radio" name="radio" id="rd" value="3">
+        
+        <label for "rd">
+            4
+        </label>
+        <input type="radio" name="radio" id="rd" value="4">
+        
+        <label for "rd">
+            5
+        </label>
+        <input type="radio" name="radio" id="rd" value="5">
+
+        <br><br>
+
+        <label for="mSg">
+            Enter Your Message
+        </label>
+        <br>
+        <textarea name="Message" id="mSg" cols="35" rows="8" placeholder="WriteYourMessage" style="text-align: center;"></textarea>
+    
+        <br>
+        <!-- i can use button tag but thats generic tag
+        and with respect to form input take use is more sense -->
+        <input type="submit" name="submit" id="sub">
+        <input type="reset" name="reset" id="res">
+
+        </form>
+
+</body>
+</html>
